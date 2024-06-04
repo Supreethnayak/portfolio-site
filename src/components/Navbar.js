@@ -30,6 +30,9 @@ export default function Navbar() {
             <Link href="/" className="hover:text-blue-400">
               HOME
             </Link>
+            <Link href="/skills" className="hover:text-blue-400">
+              SKILLS
+            </Link>
             <Link href="/experience" className="hover:text-blue-400">
               EXPERIENCE
             </Link>
@@ -79,6 +82,13 @@ export default function Navbar() {
             onClick={closeMenu}
           >
             HOME
+          </Link>
+          <Link
+            href="/skills"
+            className="block p-4 hover:text-blue-400"
+            onClick={closeMenu}
+          >
+            SKILLS
           </Link>
           <Link
             href="/experience"

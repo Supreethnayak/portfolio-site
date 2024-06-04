@@ -4,9 +4,10 @@ import { Home } from "./Home";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 // main component
 export function App() {
@@ -16,9 +17,10 @@ export function App() {
         <Navbar />
         <Router>
           <Route path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
           <Route path="/experience" component={Experience} />
+          <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </Router>
         <Footer />
       </LocationProvider>

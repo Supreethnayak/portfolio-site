@@ -17,7 +17,7 @@ export default function Experience() {
             Software Developer @Updapt CSR.
           </h3>
           <p class="w-[90%]">
-            • Developed a Giphy clone using React, creating dynamic and
+            {/* • Developed a Giphy clone using React, creating dynamic and
             responsive UI components.
             <br />
             • Integrated Giphy API to fetch trending GIFs and search for
@@ -25,7 +25,7 @@ export default function Experience() {
             <br />
             • Implemented features such as category-wise GIFs and sharing
             option.
-            <br />• Technologies : React, Tailwind CSS, React icons package.
+            <br />• Technologies : React, Tailwind CSS, React icons package. */}
           </p>
         </div>
       </div>

@@ -24,6 +24,19 @@ export default function Profile() {
               <p>
                 2+ years of professional experience as a Frontend developer.
               </p>
+              <a
+                class="flex justify-center gap-2 w-1/2 p-3 mt-3 text-white text-center bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none cursor-pointer hover:drop-shadow-lg transition-all"
+                href="myResume.pdf"
+                target={`_blank`}
+                download="Supreeth Nayak's Resume.pdf"
+              >
+                Download Resume
+                <img
+                  src="assets\images\downloadIcon.png"
+                  alt="download icon"
+                  class="w-5 h-5"
+                />
+              </a>
             </div>
           </div>
         </div>

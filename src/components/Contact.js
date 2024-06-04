@@ -94,7 +94,7 @@ export default function Contact() {
           style={{ width: "80%" }}
           action="#"
           ref={form}
-          // onSubmit={sendEmail}
+          onSubmit={sendEmail}
         >
           <div class="mb-4">
             <label for="name" class="block font-medium text-gray-700">
@@ -120,21 +120,6 @@ export default function Contact() {
               type="email"
               id="email"
               name="user_email"
-              value=""
-              required
-              class="w-full px-3 py-2 mt-1 border rounded-md focus:ring focus:ring-opacity-50 focus:outline-none"
-            />
-          </div>
-
-          <div class="mb-4">
-            <label for="phone" class="block font-medium text-gray-700">
-              Phone No:
-            </label>
-
-            <input
-              type="number"
-              id="phone"
-              name="user_phone"
               value=""
               required
               class="w-full px-3 py-2 mt-1 border rounded-md focus:ring focus:ring-opacity-50 focus:outline-none"
